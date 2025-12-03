@@ -1,0 +1,7 @@
+| Área de foco    | KPIs / Visualizações                        | Ferramentas         |
+| --------------- | ------------------------------------------- | ------------------- |
+| **Financeiro**  | Lucro total, margem, top produtos rentáveis | pandas + seaborn    |
+| **Vendas**      | Volume mensal, sazonalidade, ticket médio   | matplotlib / plotly |
+| **Geográfico**  | Mapa interativo por região/estado           | plotly.express      |
+| **Clientes**    | Segmentos de clientes mais lucrativos       | pandas / seaborn    |
+| **Operacional** | Entregas atrasadas, eficiência logística    | pandas / matplotlib |
