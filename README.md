@@ -1,34 +1,71 @@
-# superstore-portifolio
+🏬 Superstore Data Engineering & Analytics Portfolio
 
-# 🏬 Superstore Analytics Portfolio
+Projeto em desenvolvimento focado na construção de uma base analítica a partir de dados brutos da Superstore, passando por ingestão, limpeza, transformação e, futuramente, análise e visualização de KPIs.
 
-Análise completa de dados de vendas da Superstore — do ETL à visualização interativa de KPIs de negócio.
+📋 Objetivo
 
-## 📋 Objetivo
-Identificar padrões de desempenho, lucratividade e oportunidades de otimização operacional em uma base de dados de vendas.
+Construir um pipeline de dados confiável para análise de vendas, simulando um cenário real onde os dados chegam em formato CSV com inconsistências e precisam ser tratados antes do uso analítico.
 
-## 🧠 Tecnologias utilizadas
-- Python (pandas, numpy, plotly, seaborn)
-- SQL (consultas analíticas)
-- Streamlit (dashboard)
-- Jupyter Notebook
-- Power BI (opcional)
+🧠 Tecnologias utilizadas (até o momento)
 
-## 📂 Estrutura do projeto
-- `data/`: datasets originais e tratados  
-- `notebooks/`: análise exploratória e visualizações  
-- `dashboard/`: app interativo em Streamlit  
-- `sql/`: consultas e KPIs SQL  
-- `README.md`: documentação principal  
+MySQL
 
-## 📊 Principais insights
-- Categoria “Technology” é a mais lucrativa.
-- Região Oeste tem melhor performance média de lucro.
-- Frete elevado reduz margens em até 15%.
+Criação de schemas
 
-## 🚀 Como executar
-```bash
-git clone https://github.com/seu-usuario/Superstore-Portifolio.git
-cd Superstore-Portifolio/dashboard
-pip install -r requirements.txt
-streamlit run app.py
+Staging tables
+
+Limpeza e transformação de dados via SQL
+
+SQL (DDL e DML)
+
+MySQL Workbench
+
+CSV
+
+🔄 Etapas futuras incluirão Python, dashboards e visualização de dados.
+
+🏗️ Status do Projeto
+✔️ Etapas concluídas
+
+Importação de dados brutos a partir de CSV
+
+Criação de tabela de staging (superstore_stage)
+
+Criação de tabela tipada (superstore_raw)
+
+Tratamento de:
+
+Datas em formatos inconsistentes
+
+Valores monetários com separadores de milhar
+
+Erros de tipo (CAST, STR_TO_DATE)
+
+Colunas textuais com tamanho inadequado
+
+Implementação de fluxo stage → raw
+
+🚧 Próximas etapas planejadas
+
+Criação da camada superstore_clean
+
+Consultas analíticas em SQL (KPIs de negócio)
+
+Análise exploratória em Python
+
+Dashboard interativo (Streamlit ou Power BI)
+
+
+🧩 Motivação
+
+Este projeto foi desenvolvido com foco em problemas reais de dados, priorizando:
+
+Robustez do pipeline
+
+Qualidade da base analítica
+
+Tomada de decisão baseada em dados confiáveis
+
+🎯 Observação
+
+Este repositório está em constante evolução e reflete um processo incremental de aprendizado e aplicação prática em engenharia e análise de dados.
